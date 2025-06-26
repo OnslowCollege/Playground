@@ -1,5 +1,6 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+// PROJECT NAME
+// Created by STUDENT NAME
+// Created on DATE
 
 import Foundation
 
