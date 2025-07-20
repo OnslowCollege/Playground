@@ -1,5 +1,5 @@
 {
-    "image": "swift:6.0-noble",
+    "image": "swift:latest",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -10,7 +10,7 @@
                 "hediet.vscode-drawio",
                 "oderwat.indent-rainbow",
                 "seunlanlege.action-buttons",
-                "sswg.swift-lang",
+                "swiftlang.swift-vscode",
                 "usernamehw.errorlens",
                 "vadimcn.vscode-lldb",
                 "vsls-contrib.gitdoc",
