@@ -1,94 +1,99 @@
 {
-    "image": "swift:6.0-noble",
+    "image": "swift:latest",
     "customizations": {
         "vscode": {
             "extensions": [
-                "aaron-bond.better-comments",
-                "eamodio.gitlens",
-                "GitHub.vscode-pull-request-github",
-                "jdsteinbach.custom-presentation-mode",
+                "chrisatwindsurf.swift-vscode", /* Needed for VSCodium */
+                "edwinhuish.better-comments-next",
+                "github.github-vscode-theme",
+                "gruntfuggly.activitusbar",
                 "hediet.vscode-drawio",
+                "kylinideteam.gitlens",         /* Needed for VSCodium */
                 "oderwat.indent-rainbow",
-                "seunlanlege.action-buttons",
-                "sswg.swift-lang",
                 "usernamehw.errorlens",
                 "vadimcn.vscode-lldb",
+                "vknabel.vscode-apple-swift-format",
                 "vsls-contrib.gitdoc",
                 "yzhang.markdown-all-in-one"
             ],
             "settings": {
-                "gitlens.showWhatsNewAfterUpgrades": false,
-                "gitlens.showWelcomeOnInstall": false,
-                "editor.wordWrap": "on",
-                "editor.inlayHints.enabled": "off",
-                "editor.fontSize": 16,
-                "editor.rulers": [
-                    120
-                ],
-                "editor.tokenColorCustomizations": {
-                    "textMateRules": [
+                    /* Activitus */
+                    "activitusbar.showSourceControlCounter": true,
+                    "activitusbar.views": [
+                        {}, /* Spacer */
                         {
-                            "scope": "comment",
-                            "settings": {
-                                "fontStyle": "italic"
-                            }
-                        }
-                    ]
-                },
-                "gitdoc.commitValidationLevel": "none",
-                "gitdoc.enabled": true,
-                "lldb.library": "/usr/lib/liblldb.so",
-                "lldb.launch.expressions": "native",
-                "workbench.colorTheme": "Default Light Modern",
-                "actionButtons": {
-                    "commands": [
-                        {
-                            "cwd": "${workspaceFolder}",
-                            "name": "$(run-all)",
-                            "tooltip": "Build and run",
-                            "useVsCodeApi": true,
-                            "command": "workbench.action.debug.start"
+                            "name": "explorer",
+                            "codicon": "explorer-view-icon"
                         },
                         {
-                            "cwd": "${workspaceFolder}",
-                            "name": "$(pencil)",
-                            "tooltip": "Format document",
-                            "useVsCodeApi": true,
-                            "command": "editor.action.formatDocument"
+                            "name": "search",
+                            "codicon": "search-view-icon"
                         },
                         {
-                            "name": "$(terminal-view-icon)",
-                            "tooltip": "New Terminal",
-                            "useVsCodeApi": true,
-                            "command": "workbench.action.terminal.newInActiveWorkspace"
+                            "name": "scm",
+                            "codicon": "source-control-view-icon"
                         },
                         {
-                            "name": "$(terminal-kill)",
-                            "tooltip": "Kill All Terminals",
-                            "useVsCodeApi": true,
-                            "command": "workbench.action.terminal.killAll"
+                            "name": "debug",
+                            "codicon": "run-view-icon"
                         },
                         {
-                            "name": "$(eye)",
-                            "tooltip": "Kaiako Mode",
-                            "useVsCodeApi": true,
-                            "command": "extension.customPresentationMode"
+                            "name": "extensions",
+                            "codicon": "extensions-view-icon"
+                        },
+                        {}, /* Spacer */
+                        {
+                            "name": "editor.action.formatDocument",
+                            "codicon": "pencil"
+                        },
+                        {
+                            "name": "workbench.action.debug.start",
+                            "codicon": "run-all"
+                        },
+                        {
+                            "name": "workbench.action.terminal.newInActiveWorkspace",
+                            "codicon": "terminal-view-icon"
+                        },
+                        {
+                            "name": "workbench.action.terminal.killAll",
+                            "codicon": "terminal-kill"
                         }
                     ],
-                    "defaultColor": "none",
-                    "reloadButton": "↻",
-                    "loadNpmCommands": false
-                },
-                "customPresentationMode.backup": {
-                    "editor.fontSize": 16,
-                    "terminal.fontSize": 16
-                },
-                "customPresentationMode.overrides": {
-                    "editor.fontSize": 24,
-                    "terminal.integrated.fontSize": 24,
-                    "workbench.colorTheme": "Default Light Modern",
-                    "editor.fontWeight": "normal"
-                }
+                
+                    /* Apple */
+                    "apple-swift-format.path": [
+                        "/root/.mint/bin/swift-format"
+                    ],
+                
+                    /* GitLens */
+                    "gitlens.showWhatsNewAfterUpgrades": false,
+                    "gitlens.showWelcomeOnInstall": false,
+                
+                    /* Editor */
+                    "editor.wordWrap": "on",
+                    "editor.inlayHints.enabled": "off",
+                    "editor.fontSize": 20,
+                    "editor.rulers": [
+                        120
+                    ],
+                    "editor.tokenColorCustomizations": {
+                        "textMateRules": [
+                            {
+                                "scope": "comment",
+                                "settings": {
+                                    "fontStyle": "italic"
+                                }
+                            }
+                        ]
+                    },
+                
+                    /* GitDoc */
+                    "gitdoc.commitValidationLevel": "none",
+                    "gitdoc.enabled": true,
+                
+                    /* Window layout */
+                    "workbench.activityBar.location": "hidden",
+                    "workbench.colorTheme": "Default Light Modern"
             }
         }
     }
