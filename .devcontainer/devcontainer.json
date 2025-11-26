@@ -5,6 +5,7 @@
             "extensions": [
                 "swiftlang.swift-vscode",       /* Needed for VSCode / Codespaces */
                 "chrisatwindsurf.swift-vscode", /* Needed for VSCodium */
+                "christian-kohler.path-intellisense",
                 "edwinhuish.better-comments-next",
                 "github.github-vscode-theme",
                 "gruntfuggly.activitusbar",
@@ -15,6 +16,7 @@
                 "usernamehw.errorlens",
                 "vadimcn.vscode-lldb",
                 "vknabel.vscode-apple-swift-format",
+                "vscode-icons-team.vscode-icons",
                 "vsls-contrib.gitdoc",
                 "yzhang.markdown-all-in-one"
             ],
@@ -97,6 +99,7 @@
                     /* Window layout */
                     "workbench.activityBar.location": "hidden",
                     "workbench.colorTheme": "Default Light Modern",
+                    "workbench.iconTheme": "vscode-icons",
 
                     /* Artificial intelligence */
                     "chat.disableAIFeatures": true
