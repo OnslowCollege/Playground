@@ -3,11 +3,13 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "swiftlang.swift-vscode",       /* Needed for VSCode / Codespaces */
                 "chrisatwindsurf.swift-vscode", /* Needed for VSCodium */
                 "edwinhuish.better-comments-next",
                 "github.github-vscode-theme",
                 "gruntfuggly.activitusbar",
                 "hediet.vscode-drawio",
+                "maattdd.gitless",              /* Needed for VSCode / Codespaces */
                 "kylinideteam.gitlens",         /* Needed for VSCodium */
                 "oderwat.indent-rainbow",
                 "usernamehw.errorlens",
