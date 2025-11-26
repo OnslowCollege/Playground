@@ -95,7 +95,10 @@
                 
                     /* Window layout */
                     "workbench.activityBar.location": "hidden",
-                    "workbench.colorTheme": "Default Light Modern"
+                    "workbench.colorTheme": "Default Light Modern",
+
+                    /* Artificial intelligence */
+                    "chat.disableAIFeatures": true
             }
         }
     }
