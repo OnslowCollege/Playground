@@ -45,21 +45,22 @@
                         },
                         {}, /* Spacer */
                         {
-                            "name": "editor.action.formatDocument",
+                            "name": "command.editor.action.formatDocument",
                             "codicon": "pencil"
                         },
                         {
-                            "name": "workbench.action.debug.start",
+                            "name": "command.workbench.action.debug.start",
                             "codicon": "run-all"
                         },
                         {
-                            "name": "workbench.action.terminal.newInActiveWorkspace",
+                            "name": "command.workbench.action.terminal.newInActiveWorkspace",
                             "codicon": "terminal-view-icon"
                         },
                         {
-                            "name": "workbench.action.terminal.killAll",
+                            "name": "command.workbench.action.terminal.killAll",
                             "codicon": "terminal-kill"
-                        }
+                        },
+                        {} /* Spacer */
                     ],
                 
                     /* Apple */
