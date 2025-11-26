@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolderBasename}",
+            "name": "Debug Program",
+            "target": "Program",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Program",
+            "disableASLR": false,
+            "initCommands": ["settings set target.disable-aslr false"],
+            "runInTerminal": true
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolderBasename}",
+            "name": "Release Program",
+            "target": "Program",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Program",
+            "disableASLR": false,
+            "initCommands": ["settings set target.disable-aslr false"],
+            "runInTerminal": true
+        }
+    ]
+}
