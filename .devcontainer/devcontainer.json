@@ -3,15 +3,15 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "swiftlang.swift-vscode",       /* Needed for VSCode / Codespaces */
+                "swiftlang.swift-vscode", /* Needed for VSCode / Codespaces */
                 "chrisatwindsurf.swift-vscode", /* Needed for VSCodium */
                 "christian-kohler.path-intellisense",
                 "edwinhuish.better-comments-next",
                 "github.github-vscode-theme",
                 "gruntfuggly.activitusbar",
                 "hediet.vscode-drawio",
-                "maattdd.gitless",              /* Needed for VSCode / Codespaces */
-                "kylinideteam.gitlens",         /* Needed for VSCodium */
+                "maattdd.gitless", /* Needed for VSCode / Codespaces */
+                "kylinideteam.gitlens", /* Needed for VSCodium */
                 "oderwat.indent-rainbow",
                 "usernamehw.errorlens",
                 "vadimcn.vscode-lldb",
@@ -21,89 +21,88 @@
                 "yzhang.markdown-all-in-one"
             ],
             "settings": {
-                    /* Activitus */
-                    "activitusbar.showSourceControlCounter": true,
-                    "activitusbar.views": [
-                        {}, /* Spacer */
-                        {
-                            "name": "explorer",
-                            "codicon": "explorer-view-icon"
-                        },
-                        {
-                            "name": "search",
-                            "codicon": "search-view-icon"
-                        },
-                        {
-                            "name": "scm",
-                            "codicon": "source-control-view-icon"
-                        },
-                        {
-                            "name": "debug",
-                            "codicon": "run-view-icon"
-                        },
-                        {
-                            "name": "extensions",
-                            "codicon": "extensions-view-icon"
-                        },
-                        {}, /* Spacer */
-                        {
-                            "name": "command.editor.action.formatDocument",
-                            "codicon": "pencil"
-                        },
-                        {
-                            "name": "command.workbench.action.debug.start",
-                            "codicon": "run-all"
-                        },
-                        {
-                            "name": "command.workbench.action.terminal.newInActiveWorkspace",
-                            "codicon": "terminal-view-icon"
-                        },
-                        {
-                            "name": "command.workbench.action.terminal.killAll",
-                            "codicon": "terminal-kill"
-                        },
-                        {} /* Spacer */
-                    ],
-                
-                    /* Apple */
-                    "apple-swift-format.path": [
-                        "/root/.mint/bin/swift-format"
-                    ],
-                
-                    /* GitLens */
-                    "gitlens.showWhatsNewAfterUpgrades": false,
-                    "gitlens.showWelcomeOnInstall": false,
-                
-                    /* Editor */
-                    "editor.wordWrap": "on",
-                    "editor.inlayHints.enabled": "off",
-                    "editor.fontSize": 20,
-                    "editor.rulers": [
-                        120
-                    ],
-                    "editor.tokenColorCustomizations": {
-                        "textMateRules": [
-                            {
-                                "scope": "comment",
-                                "settings": {
-                                    "fontStyle": "italic"
-                                }
-                            }
-                        ]
+                /* Activitus */
+                "activitusbar.showSourceControlCounter": true,
+                "activitusbar.combineWorkspaceSettings": true,
+                "activitusbar.views": [
+                    { "codicon": "kebab-vertical" }, /* Spacer */
+                    {
+                        "name": "explorer",
+                        "codicon": "explorer-view-icon"
                     },
-                
-                    /* GitDoc */
-                    "gitdoc.commitValidationLevel": "none",
-                    "gitdoc.enabled": true,
-                
-                    /* Window layout */
-                    "workbench.activityBar.location": "hidden",
-                    "workbench.colorTheme": "Default Light Modern",
-                    "workbench.iconTheme": "vscode-icons",
-                    "vsicons.dontShowNewVersionMessage": true,
-
-                    /* Artificial intelligence */
-                    "chat.disableAIFeatures": true
+                    {
+                        "name": "search",
+                        "codicon": "search-view-icon"
+                    },
+                    {
+                        "name": "scm",
+                        "codicon": "source-control-view-icon"
+                    },
+                    {
+                        "name": "debug",
+                        "codicon": "run-view-icon"
+                    },
+                    {
+                        "name": "extensions",
+                        "codicon": "extensions-view-icon"
+                    },
+                    { "codicon": "kebab-vertical" }, /* Spacer */
+                    {
+                        "name": "command.editor.action.formatDocument",
+                        "codicon": "pencil"
+                    },
+                    {
+                        "name": "task.fix-launch",
+                        "codicon": "rocket"
+                    },
+                    {
+                        "name": "command.workbench.action.debug.start",
+                        "codicon": "run-all"
+                    },
+                    {
+                        "name": "command.workbench.action.terminal.newInActiveWorkspace",
+                        "codicon": "terminal-view-icon"
+                    },
+                    {
+                        "name": "command.workbench.action.terminal.killAll",
+                        "codicon": "terminal-kill"
+                    },
+                    { "codicon": "kebab-vertical" } /* Spacer */
+                ],
+                /* Apple */
+                "apple-swift-format.path": [
+                    "/root/.mint/bin/swift-format"
+                ],
+                /* GitLens */
+                "gitlens.showWhatsNewAfterUpgrades": false,
+                "gitlens.showWelcomeOnInstall": false,
+                /* Editor */
+                "editor.wordWrap": "on",
+                "editor.inlayHints.enabled": "off",
+                "editor.fontSize": 20,
+                "editor.rulers": [
+                    120
+                ],
+                "editor.tokenColorCustomizations": {
+                    "textMateRules": [
+                        {
+                            "scope": "comment",
+                            "settings": {
+                                "fontStyle": "italic"
+                            }
+                        }
+                    ]
+                },
+                /* GitDoc */
+                "gitdoc.commitValidationLevel": "none",
+                "gitdoc.enabled": true,
+                /* Window layout */
+                "workbench.activityBar.location": "hidden",
+                "workbench.colorTheme": "Default Light Modern",
+                "workbench.iconTheme": "vscode-icons",
+                "vsicons.dontShowNewVersionMessage": true,
+                /* Artificial intelligence */
+                "chat.disableAIFeatures": true
             }
         }
     },
