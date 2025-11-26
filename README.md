@@ -8,10 +8,11 @@ Use this template to develop a program in Swift 6 on a Linux host.
 
 ![Action buttons](.devcontainer/actions.jpg)
 
-- ▶️ **Build and Run**: build and run the code in the `Sources` folder
 - ✏️ **Format**: on first click, installs swift-format. After that, reformats your code
-- 🖥️ **New Terminal**: open a terminal window to run a Linux command
-- 🗑️ **Kill All Terminals**: closes all terminal windows
+- ▶️ **Start debugging**: build and run the code in the `Sources` folder
+- 🖥️ **New terminal**: open a terminal window to run a Linux command
+- 🗑️ **Kill all terminals**: closes all terminal windows
+- 🚀 **Fix launch.json**: if the "Start debugging" button doesn't work, try clicking this first, then try again
 
 ## Saving your changes
 
