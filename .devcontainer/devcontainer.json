@@ -100,10 +100,12 @@
                     "workbench.activityBar.location": "hidden",
                     "workbench.colorTheme": "Default Light Modern",
                     "workbench.iconTheme": "vscode-icons",
+                    "vsicons.dontShowNewVersionMessage": true,
 
                     /* Artificial intelligence */
                     "chat.disableAIFeatures": true
             }
         }
-    }
+    },
+    "postCreateCommand": "bash .devcontainer/fix-launch.sh"
 }
