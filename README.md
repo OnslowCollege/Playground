@@ -35,7 +35,7 @@ To commit changes:
 
 When you wish to start a new piece of work, such as a new task, you must **create a new branch**.
 
-> This is because Swift requires code to be located in the `main.swift` file located in the `Sources` folder, so you can't just create a new `.swift` file. Creating a new branch allows you to have multiple versions of the `main.swift` file which you can switch between.
+> This is because Swift requires code to be located in the `Program.swift` file located in the `Sources/Program` folder, so you can't just create a new `.swift` file. Creating a new branch allows you to have multiple versions of the `Program.swift` file which you can switch between.
 
 To create a new branch:
 
